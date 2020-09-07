@@ -1,0 +1,137 @@
+/* @media (max-width: 366px) { */
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+.container-fluid .row header {
+  height: 80px;
+  width: 100%;
+  background-color: #f26c4f;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.col-7 {
+  text-align: left;
+}
+
+.col-5.centrar {
+  top: 20px;
+  text-align: right;
+}
+
+.col-12.botones {
+  text-align: center;
+  display: flex;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  font-size: 16px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  padding: 0;
+}
+
+.secundario {
+  font-size: 11px;
+}
+
+.red {
+  color: #f26c4f;
+}
+
+.grey {
+  color: #a4a1a1;
+}
+
+.white {
+  color: white;
+}
+
+.day {
+  border: none;
+  height: 40px;
+  width: 33%;
+}
+
+.day.yesterday {
+  border-radius: 50px 0 0 50px;
+}
+
+.day.today {
+  background: transparent
+    linear-gradient(180deg, var(--unnamed-color-f26c4f) 0%, #fe2c00 100%) 0% 0%
+    no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #f26c4f 0%, #fe2c00 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+.day.tomorrow {
+  border-radius: 0 50px 50px 0;
+}
+
+.towels,
+.pet,
+.floor {
+  height: 80px;
+  width: 100%;
+  margin: 5% auto;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 6px;
+  opacity: 1;
+}
+
+/* .pet img {
+  position: relative;
+  right: 8px;
+  overflow: hidden;
+} */
+
+.dashboards img {
+  height: auto;
+  max-width: 100%;
+  margin-left: 10%;
+}
+
+.accion {
+  position: absolute;
+  display: flex;
+  height: auto;
+  left: 40%;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.line {
+  content: "";
+  height: 1px;
+  background-color: black;
+  margin: 5% auto;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.alinear-derecha {
+  text-align: right;
+}
